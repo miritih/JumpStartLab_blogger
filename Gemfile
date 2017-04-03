@@ -7,6 +7,8 @@ gem 'rails', '4.2.6'
 gem "paperclip"
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
+#authentication service gem
+gem 'sorcery'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 # Use SCSS for stylesheets
