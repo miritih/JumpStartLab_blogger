@@ -11,15 +11,18 @@ def create
     render action: :new
   end
 end
+
 def destroy
   logout
   redirect_to(:authors, notice: 'Logged out!')
 end
 
+private
 def zero_authors_or_authenticated
   unless Author.count == 0 || current_user
     redirect_to root_path
     return false
   end
 end
+
 end
