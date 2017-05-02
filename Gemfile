@@ -3,8 +3,12 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
+#paperclip gem
+gem "paperclip"
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
+#authentication service gem
+gem 'sorcery'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 #gem sorcery 
